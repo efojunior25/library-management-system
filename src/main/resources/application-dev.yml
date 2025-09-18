@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:library-dev
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+
+logging:
+  level:
+    root: INFO
+    com.biblioteca.management: DEBUG
